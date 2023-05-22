@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <title>Form</title>
+    <style>
+        .outer-outline {
+            border-style: 5px solid black;
+            border-style: double;
+            padding: 50px;
+        }
+
+        .heading {
+            text-align: center;
+        }
+
+        .inner-outline {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+    
+    </style>
+</head>
+
+<body>
+
+
+    <div class="outer-outline">
+        <div class="heading">
+            <h1>Event 1</h1>
+            <h5>Number of available seats: 23
+        </div>
+
+        </h5>
+
+
+
+        <div class="inner-outline">
+            <div class="container">
+                <div class="col-md-6">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.bOQJgPGUeB2QYwcZz3_3HwHaEK&pid=Api&P=0&h=180"
+                        alt="Image not loaded">
+                </div>
+
+
+                <div class="col-md-6">
+                    <form>
+                    <label for="fname">Name:</label>
+                    <input type="text" name="firstname" id="fname" required placeholder="Enter firstname"><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                    <br>
+                    <br>
+                    <label for="phone">Phone No:</label>
+                    <input type="password" name="password" id="pass" required><br><br>
+                    <br>
+                    <label for="name2">Number of seats:</label>
+
+
+                    <input type="dropdown" name="seats" id="seats">
+
+                    <i class="fa-solid fa-caret-down"></i>
+
+                    <br>
+                    <label for="name2">Name of Attendee 2:</label>
+                    <input type="text" name="name2" id="name2">
+
+
+                    <br>
+                    <input type="submit" value="Submit">
+                    <input type="submit" value="Cancel">
+
+                </div>
+                </form>
+
+
+            </div>
+        </div>
+
+</body>
+
+</html>

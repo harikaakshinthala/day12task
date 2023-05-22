@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <label for="fname">Name</label><br>
+        <form class="row g-3">
+            <div>
+
+                <div class="col-md-6">
+
+
+
+                    <input type="text" id="fname" name="fname"><br>
+                    <small id="fname" class="form-text text-muted">First</small>
+                </div>
+                <div class="col-md-6">
+
+                    <input type="text" id="lname" name="lname"><br>
+                    <small id="lname" class="form-text text-muted">Last</small>
+                    <br>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="exampleInputEmail1">Email</label><br>
+                <input type="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"
+                    required>
+                <br>
+
+            </div>
+        </form>
+
+        <label for="rating">Rate your experience</label><br>
+        <small id="fname" class="form-text text-muted">Overall,How would you rate your experience</small><br>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i><br>
+        
+        <label for="table1">How satisfied are you with</label>
+
+        <table cellspacing="0" class="datatable table table-striped table-bordered">
+
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Very Unsatified</th>
+                    <th>Unsatisfied</th>
+                    <th>Neutral</th>
+                    <th>Satisfied</th>
+                    <th>Very Satisfied</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Purchase</td>
+                    <td> <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                    </td>
+                    <td><input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                    </td>
+                    <td> <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                    </td>
+                    <td> <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                    </td>
+                    <td> <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Service</td>
+                    <td> <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                    </td>
+                    <td><input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                    </td>
+                    <td> <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                    </td>
+                    <td> <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                    </td>
+                    <td> <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Company overall</td>
+                    <td> <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                    </td>
+                    <td><input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                    </td>
+                    <td> <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                    </td>
+                    <td> <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                    </td>
+                    <td> <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+
+
+        <label for="table2">How likely are you to</label>
+
+        <table cellspacing="0" class="datatable table table-striped table-bordered">
+
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Very Unsatified</th>
+                    <th>Unsatisfied</th>
+                    <th>Neutral</th>
+                    <th>Satisfied</th>
+                    <th>Very Satisfied</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Buy from us again</td>
+                    <td> <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                    </td>
+                    <td><input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2"
+                            checked>
+                    </td>
+                    <td> <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3"
+                            checked>
+                    </td>
+                    <td> <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option4"
+                            checked>
+                    </td>
+                    <td> <input type="radio" class="form-check-input" id="radio5" name="optradio" value="option5"
+                            checked>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Recommend our products to others</td>
+                    <td> <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                    </td>
+                    <td><input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                    </td>
+                    <td> <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                    </td>
+                    <td> <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                    </td>
+                    <td> <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Recommend our company to ours</td>
+                    <td> <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                    </td>
+                    <td><input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                    </td>
+                    <td> <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                    </td>
+                    <td> <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                    </td>
+                    <td> <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <br>
+        <label for="additionalContents">Additional Contents or suggestions</label>
+        <input type="text" class="form-control" id="additionalContents" required>
+        <br>
+        <input type="submit" value="Submit">
+    </div>
+</body>
+
+</html>
